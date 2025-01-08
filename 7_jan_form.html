@@ -16,8 +16,8 @@
         <div>
             <label for="sn">Student Name</label>
             <br>
-            <input id="sn" type="text" name="student_name" value="" placeholder="Name"  required >
-        </div>
+            <input id="sn" type="text" name="student_name" value="" placeholder="Name"  required > <!--name is used for url , mtlb student name mai agr mai kuch bhi dalumga to vo automatic student_name_abhi(jo bhi value dali hai) url  mai aa jaega // value khali islie he kyuki hum jo value dalenge vo bydefault vahi show hogi -->
+        </div><!--id=sn is used for when we click on what is mention above for=sn student name ,, jb hum student name pr click krenge to automatic box mai aa jaega -->
         <div>
             <label for="sn">Student Password</label>
             <br>
@@ -33,7 +33,7 @@
         <div>
             <label for="sn">Student Gender</label>
             <br>
-            Male:<input id="sn" type="radio" name="student_gender"    required >
+            Male:<input id="sn" type="radio" name="student_gender"    required ><!--no use of placeholder and name-->
             FeMale:<input id="sn" type="radio" name="student_gender"    required >
             Other:<input id="sn" type="radio" name="student_gender"    required >
         </div>
@@ -41,7 +41,7 @@
         <div>
             <label for="sn">Student Subject</label>
             <br>
-            Math:<input id="sn" type="checkbox" name="student_math"     >
+            Math:<input id="sn" type="checkbox" name="student_math"     ><!--no use of required-->
             Science:<input id="sn" type="checkbox" name="student_science"     >
             Computer:<input id="sn" type="checkbox" name="student_computer"     >
         </div>
@@ -65,7 +65,7 @@
         <div>
             <label for="sn">Student Regestration progress</label>
             <br>
-            <meter min="0" max="100" value="10"></meter>
+            <meter min="0" max="100" value="50"></meter>
         </div>
         <br>
 
@@ -87,17 +87,20 @@
 
         <br>
         <div>
-            <label for="sn">Student Course</label>
+            <label for="sn">Student Course(click-to-moreoption-{datalist-option})</label>
             <br>
             <input type="text" list="course">
             <datalist id="course">
+                <option value="python">python</option>
+                <option value="python">python</option>
+                <option value="python">python</option>
                 <option value="python">python</option>
                
             </datalist>
         </div>
         <br>
 
-        <label for="">Message</label>
+        <label for="">Message(textarea)</label>
         <br>
         <br>
         <textarea style="resize: none;" cols="18" rows="3" name="" id="">
@@ -106,6 +109,10 @@
 
         
         <br>
+        <div>
+            <label for="jai" >Student interest(range)</label>
+            <input type="range" min="0" max="100">
+        </div>
         <button type="submit">Submit</button>
         <button type="reset">Reset</button>
         
