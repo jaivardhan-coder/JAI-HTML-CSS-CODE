@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+    position: relative;
+
+}
+.main:hover{
+    transform: rotate(360deg);
+    transition: 10s;
+}
+.col{
+    width: 200px;
+    height: 200px;
+    /* border-radius: 100%; */
+    border: 2px solid;
+}
+
+.col-1{
+    background-color: red;
+    position: absolute;
+    left: -100px;
+    top: -100px;
+    
+}
+
+.col-1:hover{
+    transform: rotate(45deg);
+    transition: 1s;
+}
+
+.col-2{
+    background-color: rgb(21, 0, 255);
+    position: absolute;
+    left: 200px;
+    top: -100px;
+    /* transform: rotate(45deg); */
+
+}
+.col-2:hover{
+    transform: rotate(45deg);
+    transition: 1s;
+}
+
+.col-3{
+    background-color: rgb(0, 255, 85);
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    /* transform: rotate(45deg); */
+    
+
+}
+.col-3:hover{
+    transform: rotate(45deg);
+    transition: 1s;
+}
+.col-4{
+    background-color: rgb(0, 153, 255);
+    position: absolute;
+    left: -100px;
+    top: 200px;
+    /* transform: rotate(45deg); */
+    z-index: 2;
+
+}
+.col-5{
+    background-color: rgb(255, 0, 247);
+    position: absolute;
+    left: -100px;
+    top: 290px;
+    transform: rotate(45deg);
+
+}
+.col-4:hover{
+    transform: rotate(45deg);
+    transition: 1s;
+}
+nav{
+    background-color: aqua;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+nav:hover{
+    background-color: rgb(5, 159, 159);
+    transition: 2s;
+}
+.content{
+    
+}
