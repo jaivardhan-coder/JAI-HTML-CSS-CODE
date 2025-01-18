@@ -1,0 +1,16 @@
+fieldset{
+    width: 30%;
+    margin: auto;
+
+}
+input{
+    padding: 10px 15px;
+    width: 80%;
+    outline: none;
+
+}
+label{
+    color: rgb(52, 30, 2);
+    font-weight: 900;
+
+}
