@@ -7,41 +7,66 @@
     <link rel="stylesheet" href="18_jan_styleform.css">
 </head>
 <body>
+    <!--styling on form  -->
     <fieldset>
-        <legend><h1>Student Regisgtration form</h1></legend>
+        <legend><H1>Student Registraion Form</H1></legend>
         <form action="">
             <div class="student-name">
-                <p><label for="">Student name</label></p>
-                <input type="text" placeholder="name of student">
+                <p><label for="">Student Name </label></p>
+                <p><input type="text" placeholder="Type Your name here"></p>
             </div>
+
             <div class="student-age">
-                <p><label for="">Student age</label></p>
-                <input type="number" placeholder="type your age">
+                <p><label for="">Student Age </label></p>
+                <p><input type="number" placeholder="Type Your age here"></p>
             </div>
+
             <div class="student-contact">
-                <p><label for="">Student contact</label></p>
-                <input type="number" placeholder="type your contact">
+                <p><label for="">Student Contact </label></p>
+                <p><input type="number" placeholder="Type Your contact here"></p>
             </div>
+
             <div class="student-dob">
-                <p><label for="">Student dob</label></p>
-                <input type="date" placeholder="type your dob">
+                <p><label for="">Student DOB </label></p >
+                <p><input type="date"></p >
             </div>
+
             <div class="student-subject">
-                <p><label for="">Student subject</label></p>
-               <label for="">Maths</label>
-               <input type="checkbox">
-               <label for="">English</label>
-               <input type="checkbox">
-               <label for="">GK</label>
-               <input type="checkbox">
+                <p><label for="">Student Subject </label></p>
+                <label for="">Math</label>
+                <input type="checkbox">
+                <label for="">English</label>
+                <input type="checkbox"/>
+                <label for="">Hindi</label>
+                <input type="checkbox"/>
+                <label for="">Computer</label>
+                <input type="checkbox"/>
+                <label for="">Chemestry</label>
+                <input type="checkbox"/>
+                
             </div>
-            <div class="student-class"></div>
-            <select>
-                <option value="Class-1">Class-1</option>
-                <option value="Class-2">Class-2</option>
-                <option value="Class-3">Class-3</option>
-                <option value="Class-4">Class-4</option>
-            </select>
+
+            <div class="student-class">
+                <select>
+                    <option hidden value="None">Choose one class</option>
+                    <option value="CLASS-1">CLASS-1</option>
+                    <option value="CLASS-2">CLASS-2</option>
+                    <option value="CLASS-3">CLASS-3</option>
+                    <option value="CLASS-4">CLASS-4</option>
+                    <option value="CLASS-5">CLASS-5</option>
+                </select>
+            </div>
+
+            <div class="student-documents">
+                <p><label for="">Upload File Here</label></p>
+                <small>Max-Size:30kb</small>
+                <input type="file">
+            </div>
+
+            <div class="btn">
+                <input type="submit" value="Submit Here">
+                <input type="reset" value="Reset Form">
+            </div>
         </form>
     </fieldset>
 </body>

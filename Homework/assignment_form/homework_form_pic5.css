@@ -1,0 +1,77 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(140, 140, 232, 0.371);
+}
+.main{
+    background-color: rgb(245, 245, 245);
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    height: 80vh;
+    border-radius: 20px;
+    box-shadow: 1px 9px 20px 2px;    
+}
+.form{
+    text-align: center;
+    padding: 20px;
+}
+button{
+    width: 40%;
+    padding: 8px;
+    margin-top: 25px;
+
+}
+#blue{
+    background-color: blue;
+    border-radius: 10px;
+}
+#big{
+    /* width: 100%; */
+    border-radius: 5px;
+}
+.info{
+    margin-top: 50px;
+}
+input{
+    width: 75%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0.1px 1px 0px 0.1px;
+    border: 0px;
+}
+input[type="number"]{
+    margin-top: 20px;
+
+}
+.info p{
+    margin-left: -210px;
+    margin-top: 5px;
+    color: blue;
+}
+.nav button{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    
+
+}
+.nav p{
+ 
+    float: left;
+   
+}
+.side{
+    margin-top: 20px;
+    float: left;
+    margin-left: 110px;
+}
+#m{
+    color: blue;
+}

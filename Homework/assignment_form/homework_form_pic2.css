@@ -1,0 +1,73 @@
+body{
+      /* background-color: rgba(92, 210, 221, 0.737); */
+      background-image: url("bus.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* background: fixed;*/
+      /* filter: blur(2px); */
+      height: 50vh;
+}
+
+.box{
+    margin: auto;
+    display: flex;
+    width: 50%;
+    /* margin-right: 40px; */
+    box-shadow: 2px 2px 15px 1px;
+    margin-top: 100px;
+    height: 520px;
+}
+.Content{
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    height: 100%;
+}
+.image{
+    width: 50%;
+    height: 500px;
+}
+input[type="text"]{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(153, 137, 137, 0.451);
+}
+input[type="number"]{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(153, 137, 137, 0.451);
+}
+
+textarea{
+    width: 305px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(153, 137, 137, 0.451);
+
+}
+button{
+    width: 88%;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(4, 246, 4, 0.793);
+    border-radius: 5px;
+}
+h2{
+    position: relative;
+}
+h2::after{
+    Content: '';
+    width: 10%;
+    height: 3px;
+    background-color: green;
+    position: absolute;
+    bottom: -5px;
+    left: 45%;
+
+}

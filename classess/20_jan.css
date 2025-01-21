@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.col{
+    width: 300px;
+    height: 400px;
+    border: 1px solid rgb(78, 70, 70);
+    /* padding: 10px; */
+}
+/* .main{
+    background-color: palegreen;
+    height: 100vh;
+} */
+
+.row{
+    padding: 20px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    /* background-color: rgb(20, 1, 47); */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* align-items: end; */
+    /* align-items: baseline; */
+    gap: 20px;
+    /* color: aliceblue; */
+    flex-wrap: wrap;
+   
+
+}
+
+/* .row .col-1{
+    align-self: center;
+    flex-basis: 50%;
+    
+}
+.row .col-2{
+    align-self: end;
+    flex-basis: 50%;
+
+}
+.row .col-3{
+    align-self: center;
+    flex-basis: 40%;
+
+}  */
+
+.row .col img{
+    width: 100%;
+}
+
+.row .col .content{
+    padding: 10px;
+}
+
+
+.btn button{
+margin-top: 20px;
+/* background-color: rgb(0, 115, 255); */
+border: none;
+padding: 10px 15px;
+color: aliceblue;
+border-radius: 5px;
+}
+.btn button:nth-child(1){
+    background-color: rgb(0, 115, 255);
+}
+.btn button:nth-child(2){
+    background-color: rgb(255, 60, 0);
+}
+
+/* .row .col-1:hover{
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+.row .col-2:hover{
+    margin-top: 20px;
+    transition: all 0.5s;
+
+}
+.row .col-3:hover{
+    margin-top: 30px;
+    transition: all 0.5s;
+
+}
+.row .col-4:hover{
+    margin-top: 40px;
+    transition: all 0.5s;
+
+} */
