@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       :root{
+    --c1 :rgb(98, 255, 0);
+    --c2 :rgb(55, 0, 255);
+    --c3 :blue;
+    --c4 :rgb(255, 0, 183);
+    --c5 :rgb(242, 255, 0);
+    --c6 :rgb(106, 0, 255);
+    --bg:rgb(255, 136, 0);
+}
+
+
+.col{
+    border: 2px solid;
+    padding: 10px;
+}
+
+.col-1{
+    background-color:var(--c1);
+   grid-column-start: 2;
+   grid-column-end: 4;
+}
+.col-2{
+    background-color:var(--c2);
+    grid-row-start: 1;
+    grid-row-end: 3;
+   
+}
+.col-3{
+    background-color:var(--c3);
+    grid-row: 2/4;
+}
+.col-4{
+    background-color:var(--c4);
+    grid-row: 2/4;
+}
+.col-5{
+    background-color:var(--c5);
+}
+.col-6{
+    background-color:var(--c6);
+    grid-column: 1/4;
+    
+
+
+}
+
+.main{
+    /* height: 100vh; */
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-columns: repeat(6,200px);
+    grid-template-columns: 100px 200px 300px 400px;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-columns: repeat(3,auto);
+    gap: 10px;
+    /* margin-top: 20px; */
+    grid-template-rows: 300px 300px 300px 300px ;   
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="col col-1">1</div>
+    <div class="col col-2">2</div>
+    <div class="col col-3">3</div>
+    <div class="col col-4">4</div>
+    <div class="col col-5">5</div>
+    <div class="col col-6">6</div>
+    </div>
+</body>
+</html>

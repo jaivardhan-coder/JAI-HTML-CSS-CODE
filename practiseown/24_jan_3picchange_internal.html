@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 520px;
+            width: 600px;
+            margin: auto;
+            background-color: rgba(0, 255, 255, 0.133);
+            /* display: flex; */
+            /* display: block;      */
+            border-radius: 10px;
+            box-shadow: 12px 13px 50px 10px;
+            border: 2px solid rgba(31, 3, 3, 0.89);      
+            margin-top: 50px;
+        }
+        .img{
+            background-image: url(hotel.jpg);
+            height: 300px;
+            width: 90%;
+            margin: auto;
+            align-items: center;
+            background-size: cover;
+            background-size: contain;
+            animation-name: img;
+            animation-duration: 10s;
+            animation-direction: normal;
+            animation-iteration-count: infinite;
+            
+
+        }
+        @keyframes img{
+            0%{
+                background-image: url(hotel.jpg);
+                
+            }
+            25%{
+                background-image: url(download.jpeg);
+                
+            }
+            50%{
+                background-image: url(download_1.jpeg);
+            }
+            75%{
+                background-image: url(download_2.jpeg);
+            }
+            100%{
+                background-image: url(download_3.jpeg);
+            }
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="img"></div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, culpa voluptatibus, modi dolore corporis eaque laboriosam inventore soluta amet corrupti debitis sequi quis veritatis temporibus deserunt mollitia similique enim! Ipsam? </p>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+.main{
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    width: 500px;
+    height: 400px;
+    /* position: relative; */
+}
+.img{
+    background-image: url(bus.png);
+    background-color: blue;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+}
+/* .content{
+    padding: 20px;
+} */
+button{
+    margin-left: 20px;
+    top: 370px;
+    /* position: absolute; */
+}
+button:hover+.img{
+    background-image: url(download.jpeg);
+}
+button{
+    position: absolute;
+    top: 450px;
+    background-color: gray;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+

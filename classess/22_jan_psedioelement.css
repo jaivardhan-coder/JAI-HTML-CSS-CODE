@@ -1,0 +1,82 @@
+/* .main p:nth-child(even){
+   color: red;
+}
+.main p:nth-child(odd){
+    color: orange;
+ }
+ .main p:nth-child(even):hover{
+    background-color: rgb(128, 255, 0);
+ }
+  .main p:first-child{
+    color: blue;
+  }
+  .main p:last-child{
+    color: blueviolet;
+  }
+  class start from alphabet (^)
+  [class^="comman"]{
+    background-color: aqua;
+  }
+  [class^="2"]{
+    background-color: rgb(0, 38, 255);
+  }
+
+  End with $
+  [class$="d"]{
+    background-color: rgba(210, 232, 13, 0.947);
+  }
+  contain (*)
+  [class*="f"],[class*=""]{
+    background-color: rgb(230, 136, 136);
+  }
+  not()
+  p:not(.comman){
+   background-color: black;
+  }
+ */
+
+
+ /* ------------------------------------------------ make */
+ p::first-letter{
+    color: blue;
+ }
+ p::first-line{
+    /* make color blue in every first line of paragraph in blocklevel */
+    color: blue;
+ }
+ /* if we want make color line whose class end with "" */
+ /* [class$="h"]::first-line{
+    color: rgb(233, 18, 18);
+ } */
+
+
+ /* -------------advance selector */
+ /* .main+p{  */
+    /* main div k baad pehla elemnet uspe color lg jagea (+) */
+    /* background-color: tomato; */
+ /* } */
+ /* .main{
+    width: 300px;
+    border: 2px solid black;
+    padding: 10px;
+ }
+ button{
+    position: absolute;
+    top: 200px;
+ }
+    adjacent mtlb ki bs ek he 
+ .main:hover+button{
+    background-color: rgb(0, 85, 255);
+ }
+*/
+ /* for make button and hover in main so now */
+ button:hover+.main{
+    background-color: rgb(15, 5, 5);
+ } 
+  /* siblings -- main div k bahar nihce jo bhi hoga vo sibling mai add hota rhega but vo main k uppr jo bhi hoga uspe nhi hoag */
+  /* .main ~p{
+    background-color: red;
+  }
+  button:active{
+    background-color: blue;
+  } */
