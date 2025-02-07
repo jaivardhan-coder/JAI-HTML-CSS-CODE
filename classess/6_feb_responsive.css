@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    gap: 10px;
+}
+.col img{
+    width: 100%;
+    height: 100%;
+
+}
+.col{
+    width: 300px;
+    height: 200px;
+    border: 2px solid red;
+}
+.col-1{
+    background-color: rgb(255, 60, 0);
+}
+.col-2{
+    background-color: aqua;
+}
+.col-3{
+    background-color: rgb(43, 255, 0);
+}
+.col-4{
+    background-color: rgb(255, 0, 183);
+}
+.col-5{
+    background-color: rgb(4, 255, 0);
+}
+
+
+/* break points */
+/* 1. Extra = small < 480px */
+/* 2. Small = 480px - 780px */
+/* 3.Medium devices = 781px - 1024px */
+/* 4. Large devices = 1025px - 1200px */
+/* 5. extra Large = 1200px or more */
+
+@media (max-width:480px){
+    .main{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .col{
+        width: 100%;
+    }
+}
+
+@media (min-width:481px) and (max-width:781px){
+    .main{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .col{
+        width: 100%;
+    }
+
+}
+@media (min-width:782px) and (max-width:1024px){
+    .main{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .col{
+        width: 100%;
+    }
+
+}

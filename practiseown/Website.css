@@ -364,7 +364,6 @@ button:hover{
 .main4{
     background-image: url(images/Group-9727.jpg);
     height: 100vh;
-    left: 30px;
     position: relative;
 }
 .main4 .side{
@@ -424,5 +423,145 @@ button:hover{
 }
 .main4 .app img{
     height: 450px;
+}
+/* ---------------------------------------- */
+.num{
+    display: flex;
+    background-image: url(images/greenbg.jpg);
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    color: white
+}
+.num h2{
+    font-size: 50px;
+}
+.num p{
+    color: rgba(245, 222, 179, 0.488);
+}
+/* ----------------------------------------------------------------- */
+.main5{
+    background-image: url(images/Group-9727.jpg);
+}
+.main5 .set{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
 
+}
+.main5 .data {
+    position: absolute;
+    margin-left: 450px ;
+    margin-top: -430px;
+}
+.data{
+    padding: 20px;
+}
+.data h2{
+    padding-bottom: 15px;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+}
+.data p{
+    margin-left: 100px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+/* =========================================================footer */
+.main6{
+    background-color: rgba(24, 106, 11, 0.626);
+    height: 80vh;
+    
+}
+
+.main6 .detailsfooter{
+    display:flex ;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 280px;
+    
+}
+.main6 .top{
+    width: 80%;
+    margin-left: 115px;
+    height: 80vh;
+}
+.main6 .address1{
+    display: flex;
+
+}
+.main6 .contact1{
+    display: flex;
+
+}
+.main6 .email1{
+    display: flex;
+
+}
+.main6 .detailsfooter i{
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.main6 .detailsfooter a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+/* ----------------------------------------------------- */
+.G-S-container{
+    /* width: 360px; */
+    padding: 10px;
+    margin-top: 40px;
+    padding-left: 30px;
+    display: flex;
+    gap: 20px;
+
+}
+.G-S{
+    display: flex;
+
+}
+.G-S-Size{
+    width: 360px;
+}
+.G-S .G-S-W{
+    font-size: 30px;
+    padding: 8px;
+    color: white;
+}
+.main6 .commit{
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+.main6 .info-L{
+    color: white;
+    font-size: 15px;
+
+}
+/* ------------------------------------ */
+.main6 .company{
+    width: 250px;
+}
+.main6 p{
+    padding: 15px;
+color: white;
+}
+.main6 h2{
+    padding-left: 12px ;
+    color: white;
+}
+.copy-r{
+    display: flex;
+    margin-top: 20px;
+}
+.copy-r .tc{
+    margin-left: 520px;
 }
